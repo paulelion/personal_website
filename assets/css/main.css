@@ -277,4 +277,55 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* CONTACT PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contact {
+    background-color:#f1f1f1;
+    font-family: 'futura', arial;
+}
+
+#contact .form-control {
+    border:2px solid #1e1e1e;
+}
+
+#contact button {
+    border:2px solid #1e1e1e;
+}
+
+#contact .row {
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }   
+}
+
+.icons {
+		list-style: none !important;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		margin: 15px;
+	}
+
+	.fa {
+		font-size: 50px;
+		color: black; 
+	}
+
+	.fa:hover {
+		color: grey; 
+	}
+
+	hr {
+		margin-top: .5rem !important;
+    	margin-bottom: .5rem !important;
+    	height: .5px;
+    	background-color: black;
+	}
+}
+
 
