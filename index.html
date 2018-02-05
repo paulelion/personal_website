@@ -2,17 +2,16 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Paul Elion</title>
 
-    <!-- css files -->
-    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700' rel='stylesheet' type='text/css'>    
+    <!-- CSS Files --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">  
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet"> 
     <link href="assets/css/main.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <![endif]-->
+  
   </head>
+
   <body>
 
     <header>
@@ -53,21 +52,41 @@
     </header>
 
     <div id="fullpage">
+      <!-- Slide 1 -->
       <section class="vertical-scrolling">
         <h2>Paul Elion</h2>
         <h3>Web Developer and Web Designer</h3>
         <p>I like combining business strategy and emotional design to create authentic and meaningful experiences</p>
-        <img src="assets/graphics/headshot.png" alt="">
-        <img src="" alt="">
+        <img src="assets/graphics/headshot.png" alt="headshot" class="headshot">
       </section>
+
+      <!-- Slide 2 -->
       <section class="vertical-scrolling">
         <h2>About Me</h2>
-        <h3>This is the second section</h3>
+        <h3>I'm ambitious problem solver with a passion for creativity and design. I have much experience creating logical and innovative solutions to complex problems. I'm thorough and precise in everything I do, and have a keen interest in technology, design and art, and user experience and user interface. As someone who takes responsibility for his own personal development, I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of web development and design. I am a natural problem solver who has proven himself by successfully completing a variety of projects in a multitude of different softwares, programming languages, frameworks, and design skills.</h3>
       </section>
+
+      <!-- Slide 3 -->
       <section class="vertical-scrolling">
-        <h2>Education / Skills</h2>
-        <h3>This is the third section</h3>
+        <div class="container">
+          <div class="education">
+            <h1>Education</h1>
+            <img src="assets/graphics/pennstate.png" alt="The Pennsylvania State University">
+            <img src="assets/graphics/nycda.png" alt="The New York Code and Design Academy">
+          </div>
+          <div class="programlanguages">
+            <h1>Programming Languages and Tools</h1>
+          </div>
+          <div class="certifications">
+            <h1>Certifications</h1>
+            <img src="assets/graphics/designthinking.png" alt="ibmdesignthinkingbadge">
+            <img src="assets/graphics/analytics.png" alt="Google Analytics Badge">
+            <img src="assets/graphics/adwords.png" alt="Google Adwords Badge">
+          </div>
+        </div>
       </section>
+
+      <!-- Slide 4 -->
        <section class="vertical-scrolling">
         <div class="horizontal-scrolling">
           <h2>Projects</h2>
@@ -84,36 +103,34 @@
           <p class="end">Thank you!</p>
         </div>
       </section>
+
+      <!-- Slide 5 -->
       <section class="vertical-scrolling">
         <h2>Personal</h2> 
         <h3>This is the fifth section</h3>
       </section>
-       <section class="vertical-scrolling">
+
+      <!-- Slide 6 -->
+      <section class="vertical-scrolling">
         <h2>Get in contact</h2> 
         <form action="#" method="POST">
-            <div class="container 75%">
-              <div class="row uniform 50%">
-                <div class="6u 12u$(xsmall)">
-                  <input name="name" placeholder="Name" type="text" />
-                </div>
-                <div class="6u$ 12u$(xsmall)">
-                  <input name="email" placeholder="Email" type="email" />
-                </div>
-                <div class="12u$">
-                  <textarea name="message" placeholder="Message" rows="4"></textarea>
-                </div>
-              </div>
-            </div>
-            <ul class="actions">
-              <li><input type="submit" class="special" value="Submit" /></li>
-              <li><input type="reset" class="alt" value="Reset" /></li>
-            </ul>
-          </form>
-        <h3>This is the fifth section</h3>
+          <input name="name" placeholder="Name" type="text" />
+          <input name="email" placeholder="Email" type="email" />
+          <textarea name="message" placeholder="Message" rows="4"></textarea>
+          <ul>
+            <li><input type="submit" class="special" value="Submit" /></li>
+            <li><input type="reset" class="alt" value="Reset" /></li>
+          </ul>
+        </form>
       </section>
+
     </div>
  
-    <!-- js files -->
+    <!-- JS Files -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script src="assets/js/main.js"></script>
