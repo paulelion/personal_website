@@ -290,7 +290,14 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 /* PROJECTS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#wrapper {
+	padding-left: 40px;
+    padding-top: 40px;
+}
 
+.snapshot {
+	width: 85%;
+}
 /* PERSONAL PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
