@@ -10,6 +10,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet"> 
     <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <link rel="shortcut icon" href="assets/graphics/favicon.png" />
   
@@ -50,6 +51,9 @@
           <li data-menuanchor="sixthSection/1">
             <a href="#sixthSection/1" title="Second Slide">Second Slide</a>
           </li>
+          <li data-menuanchor="seventhSection">
+            <a href="#seventhSection" title="Seventh Section">Contact Me</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -57,9 +61,15 @@
     <div id="fullpage">
       <!-- Slide 1 -->
       <section class="vertical-scrolling">
-        <h2>Paul Elion</h2>
-        <h3>Web Developer and Web Designer</h3>
-        <p>I like combining business strategy and emotional design to create authentic and meaningful experiences</p>
+        <div class="container">
+          <div class="row">
+            <div class="landing">
+              <h2 class="name">Paul J. Elion</h2>
+              <h3 class="job">Web Designer & Developer</h3>   
+              <p class="intro">Combining business strategy and emotional design <br> to create authentic and meaningful experiences</p>
+            </div>
+          </div>
+        </div>
         <img src="assets/graphics/headshot.png" alt="headshot" class="headshot">
       </section>
 
@@ -71,55 +81,112 @@
 
       <!-- Slide 3 -->
       <section class="vertical-scrolling">
-        <div class="row" id="education">
-          <div class="col-md-4">
-            <div>
-              <h1>Education</h1>
-              <img class="pennstate" src="assets/graphics/pennstate.png" alt="The Pennsylvania State University">
-              <img class="nycda" src="assets/graphics/nycda.png" alt="The New York Code and Design Academy">
+        <div class="container">
+          <div class="row" id="education">
+            <div class="col-md-6">
+              <div>
+                <h1>Education</h1>
+                <img class="pennstate" src="assets/graphics/pennstate.png" alt="The Pennsylvania State University">
+                <img class="nycda" src="assets/graphics/nycda.png" alt="The New York Code and Design Academy">
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="programlanguages">
-              <h1>Programming Languages and Tools</h1>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="certifications">
-              <h1>Certifications</h1>
-              <img class="ibm" src="assets/graphics/designthinking.png" alt="ibmdesignthinkingbadge">
-              <img  class="google" src="assets/graphics/analytics.png" alt="Google Analytics Badge">
-              <img  class="google" src="assets/graphics/adwords.png" alt="Google Adwords Badge">
+            <div class="col-md-6">
+              <div class="certifications">
+                <h1>Certifications</h1>
+                <img class="ibm" src="assets/graphics/designthinking.png" alt="ibmdesignthinkingbadge">
+                <img  class="google" src="assets/graphics/analytics.png" alt="Google Analytics Badge">
+                <img  class="google" src="assets/graphics/adwords.png" alt="Google Adwords Badge">
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Slide 4 -->
-       <section class="vertical-scrolling">
-        <div class="horizontal-scrolling">
-          <h2>Projects</h2>
-          <h3>Momma Knows Best</h3>
-        </div>
-        <div class="horizontal-scrolling">
-          <h2>Projects</h2>
-          <h3>SoundCloud Jukebox</h3> 
-  
-        </div>
-        <div class="horizontal-scrolling">
-          <h2>Projects</h2>
-          <h3>Game of Thrones Hangman</h3> 
-         
-        </div>
+      <section class="vertical-scrolling">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="code">Programming Languages and Tools</h1>
+              <div class="icons">
+                <i class="devicon-html5-plain-wordmark"></i>
+                <i class="devicon-css3-plain-wordmark"></i>
+                <i class="devicon-sass-original"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-jquery-plain-wordmark"></i>
+                <i class="devicon-ruby-plain-wordmark"></i>
+              </div>
+              <div class="icons">
+                <i class="devicon-rails-plain-wordmark"></i>
+                <i class="devicon-git-plain-wordmark"></i>
+                <i class="devicon-github-plain-wordmark"></i>
+                <i class="devicon-heroku-plain-wordmark"></i>
+                <i class="devicon-bootstrap-plain-wordmark"></i>
+                <i class="devicon-wordpress-plain-wordmark"></i>
+              </div>
+            </div>
+          </div>   
+        </div> 
       </section>
 
       <!-- Slide 5 -->
+       <section class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5" id="wrapper">
+                <h2 class="projects">Projects</h2>
+                <h3 class="title">Momma Knows Best</h3>
+                <h5 class="description">A recipe ebook which allows users to create, edit, and delete recipes, as well as view all published recipes</h5>
+                <h5 class="technologies">Haml, Ruby on Rails, JavaScript, Sass</h5>
+              </div>
+              <div class="col-md-7">
+                <img class="snapshot" src="assets/graphics/momma.png" alt="Screenshot of the app">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="horizontal-scrolling">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5" id="wrapper">
+                <h2 class="projects">Projects</h2>
+                <h3 class="title">SoundCloud Jukebox</h3>
+                <h5 class="description">A jukebox that can play, pause, rewind, and skip the songs of musical artist RL Grime using the SoundCloud API</h5>
+                <h5 class="technologies">Haml, Ruby on Rails, JavaScript, Sass</h5>
+              </div>
+              <div class="col-md-7">
+                <img class="snapshot" src="assets/graphics/soundcloud.png" alt="Screenshot of the app">
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="horizontal-scrolling">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5" id="wrapper">
+                <h2 class="projects">Projects</h2>
+                <h3 class="title">Game of Thrones Hangman</h3>
+                <h5 class="description">A simple Game of Thrones themed game where the user guesses individual letters to uncover the correct House of Westeros</h5>
+                <h5 class="technologies">HTML, JavaScript, CSS</h5>
+              </div>
+              <div class="col-md-7">
+                <img class="snapshot" src="assets/graphics/thrones.png" alt="Screenshot of the app">
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 6 -->
       <section class="vertical-scrolling">
         <h2>Personal</h2> 
         <h3>This is the fifth section</h3>
       </section>
 
-      <!-- Slide 6 - Contact Page -->
+      <!-- Slide 7 - Contact Page -->
       <section class="vertical-scrolling" id="contact">
         <div class="container">
           <div class="row">
@@ -148,7 +215,7 @@
               &nbsp;
               <hr>
               <div class="container">
-                <ul class="icons">
+                <ul class="social">
                   <li><a href="https://www.linkedin.com/in/paulelion/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                   <li><a href="https://github.com/paulelion"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                   <li><a href="mailto:paul.j.elion@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
