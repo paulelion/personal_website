@@ -275,20 +275,29 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
     padding-top: 20px;
 }
 
-/* SKILLS PAGE
+/* PROGRAMMING LANGUAGES AND TOOLS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.icons {
-	font-size: 100px;
-}
-
-.icons:hover {
-	color: grey;
-}
-
-.icons, .code {
+.code {
 	text-align: center;
 }
 
+#icons {
+	font-size: 90px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.html, .css, .sass, .js, .jquery, .ruby, .rails, .git, .github, .heroku, .bootstrap, .wordpress {
+	
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.html:hover, .css:hover, .sass:hover, .js:hover, .jquery:hover, .ruby:hover, .rails:hover, .git:hover, .github:hover, .heroku:hover, .bootstrap:hover, .wordpress:hover {
+	color: grey;
+}
 
 
 /* PROJECTS PAGE
