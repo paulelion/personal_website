@@ -63,19 +63,19 @@
       <section class="vertical-scrolling">
         <div class="container">
           <div class="row">
-            <div class="landing">
+            <div class="col-md-12" class="landing">
               <h2 class="name">Paul J. Elion</h2>
-              <h3 class="job">Web Designer & Developer</h3>   
+              <h3 class="job">Web Designer & Developer</h3>
               <p class="intro">Combining business strategy and emotional design <br> to create authentic and meaningful experiences</p>
             </div>
           </div>
-        </div>
+        
         <img src="assets/graphics/headshot.png" alt="headshot" class="headshot">
+        </div>
       </section>
 
       <!-- Slide 2 -->
       <section class="vertical-scrolling">
-        <h2>About Me</h2>
         <h3>I'm ambitious problem solver with a passion for creativity and design. I have much experience creating logical and innovative solutions to complex problems. I'm thorough and precise in everything I do, and have a keen interest in technology, design and art, and user experience and user interface. As someone who takes responsibility for his own personal development, I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of web development and design. I am a natural problem solver who has proven himself by successfully completing a variety of projects in a multitude of different softwares, programming languages, frameworks, and design skills.</h3>
       </section>
 
@@ -86,31 +86,31 @@
           <div class="row">
             <div class="col-md-6">
               <div>
-                <h1>Education</h1>
+                <h1 class="heading">Education</h1>
               </div>
             </div>
             <div class="col-md-6">
               <div>
-                <h1>Certifications</h1>
+                <h1 class="heading">Certifications</h1>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <div class="media">
-                <div class="media-left" class="psu">
-                  <img src="assets/graphics/pennstate.png" alt="The Pennsylvania State University">  
+                <div class="media-left">
+                  <img class="psu" src="assets/graphics/pennstate.png" alt="The Pennsylvania State University">  
                 </div>
-                <div class="media-body">
+                <div class="media-body" class="info">
                   <h5 class="media-heading">Pennsylvania State University</h5>
                   <p>Bachelor of Science: International Politcal Science</p>  
                 </div>   
               </div>
               <div class="media">
                 <div class="media-left">
-                  <img src="assets/graphics/nycda.png" alt="The New York Code and Design Academy" class="nycda">  
+                  <img class="nycda" src="assets/graphics/nycda.png" alt="The New York Code and Design Academy">  
                 </div>
-                <div class="media-body">
+                <div class="media-body" class="info">
                   <h5 class="media-heading">The New York Code and Design Academy</h5>
                   <p>Full Stack Web Development Intensive Bootcamp</p>  
                 </div>   
@@ -118,26 +118,26 @@
             </div>
             <div class="col-md-6">
               <div class="media">
-                <div class="media-left" class="ibm">
+                <div class="media-left">
                   <img class="ibm" src="assets/graphics/designthinking.png" alt="IBM Design Thinking Badge">
                 </div>
-                <div class="media-body">
+                <div class="media-body" class="info">
                   <h5 class="media-heading">IBM Design Thinking</h5>
                 </div>
               </div>
               <div class="media">
-                <div class="media-left" class="google">
-                  <img  class="google" src="assets/graphics/analytics.png" alt="Google Analytics Badge">
+                <div class="media-left">
+                  <img class="google" src="assets/graphics/analytics.png" alt="Google Analytics Badge">
                 </div>
-                <div class="media-body">
+                <div class="media-body" class="info">
                   <h5 class="media-heading">Google Analytics</h5>
                 </div>
               </div>
                 <div class="media">
-                <div class="media-left" class="google">
-                  <img  class="google" src="assets/graphics/adwords.png" alt="Google AdWords Badge">
+                <div class="media-left">
+                  <img class="google" src="assets/graphics/adwords.png" alt="Google AdWords Badge">
                 </div>
-                <div class="media-body">
+                <div class="media-body" class="info">
                   <h5 class="media-heading">Google AdWords</h5>
                 </div>
               </div>
@@ -205,13 +205,17 @@
           <div class="container">
             <div class="row">
               <div class="col-md-5" id="wrapper">
-                <h2 class="projects">Projects</h2>
-                <h3 class="title">Momma Knows Best</h3>
+                <h3 class="projects">Projects</h3>
+                <a class="projects_link" href="https://mommaknowsbest.herokuapp.com/">
+                  <h3 class="title">Momma Knows Best</h3>
+                </a>
                 <h5 class="description">A recipe ebook which allows users to create, edit, and delete recipes, as well as view all published recipes</h5>
                 <h5 class="technologies">Haml, Ruby on Rails, JavaScript, Sass</h5>
               </div>
               <div class="col-md-7">
-                <img class="snapshot" src="assets/graphics/momma.png" alt="Screenshot of the app">
+                <a href="https://mommaknowsbest.herokuapp.com/">
+                  <img class="snapshot" src="assets/graphics/momma.png" alt="Screenshot of the app">
+                </a>
               </div>
             </div>
           </div>
@@ -221,13 +225,17 @@
           <div class="container">
             <div class="row">
               <div class="col-md-5" id="wrapper">
-                <h2 class="projects">Projects</h2>
-                <h3 class="title">SoundCloud Jukebox</h3>
+                <h3 class="projects">Projects</h3>
+                <a class="projects_link" href="https://paulelion.github.io/soundcloud_jukebox/">
+                  <h3 class="title">SoundCloud Jukebox</h3>
+                </a>
                 <h5 class="description">A jukebox that can play, pause, rewind, and skip the songs of musical artist RL Grime using the SoundCloud API</h5>
                 <h5 class="technologies">Haml, Ruby on Rails, JavaScript, Sass</h5>
               </div>
               <div class="col-md-7">
-                <img class="snapshot" src="assets/graphics/soundcloud.png" alt="Screenshot of the app">
+                <a href="https://paulelion.github.io/soundcloud_jukebox/">
+                  <img class="snapshot" src="assets/graphics/soundcloud.png" alt="Screenshot of the app">
+                </a>
               </div>
             </div>
           </div>  
@@ -237,13 +245,17 @@
           <div class="container">
             <div class="row">
               <div class="col-md-5" id="wrapper">
-                <h2 class="projects">Projects</h2>
-                <h3 class="title">Game of Thrones Hangman</h3>
+                <h3 class="projects">Projects</h3>
+                <a class="projects_link" href="https://paulelion.github.io/game_of_thrones_hangman/">
+                  <h3 class="title">Game of Thrones Hangman</h3>
+                </a>
                 <h5 class="description">A simple Game of Thrones themed game where the user guesses individual letters to uncover the correct House of Westeros</h5>
                 <h5 class="technologies">HTML, JavaScript, CSS</h5>
               </div>
               <div class="col-md-7">
-                <img class="snapshot" src="assets/graphics/thrones.png" alt="Screenshot of the app">
+                <a href="https://paulelion.github.io/game_of_thrones_hangman/">
+                  <img class="snapshot" src="assets/graphics/thrones.png" alt="Screenshot of the app">
+                </a>
               </div>  
             </div>
           </div>
