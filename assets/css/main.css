@@ -240,7 +240,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 .headshot {
 	position: fixed;
-    right:-325px;
+    right:-300px;
     bottom:0;
     margin:0;
     max-width:100%;
@@ -250,6 +250,20 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 .name {
 	font-family: futura;
 	font-size: 100px;
+	padding-left: 50px;
+}
+
+.job {
+	font-family: futura;
+	padding-left: 55px;
+
+}
+
+.intro {
+	font-family: futura;
+	padding-top: 5px;
+	padding-left: 55px;
+	line-height: 1.2;
 }
 
 
@@ -259,12 +273,32 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* EDUCATION/CERTIFICATIONS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.psu {
+.heading {
+	text-align: center;
 }
-	img {
-		width: 175px;
-		height: 175px;
-	}
+
+.psu, .nycda {
+	width: 175px;
+	height: 175px;
+}
+
+.ibm, .google {
+	width: 125px;
+	height: 125px;
+}
+
+.psu, .nycda, .ibm, .google {
+	margin-right: 20px;
+	margin-bottom: 20px;
+} 
+
+.v-center {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 175px;
+}
+
 
 
 /* PROGRAMMING LANGUAGES AND TOOLS PAGE
@@ -296,12 +330,35 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 #wrapper {
 	padding-left: 40px;
-    padding-top: 40px;
 }
 
 .snapshot {
-	width: 85%;
+	width: 100%;
+	border:2px solid #0C2D6A;
+	background-color: #f9f9f9;
 }
+
+.projects {
+	font-size: 2.5em;
+	color: #0C2D6A;
+}
+
+.title {
+	color: white;
+}
+
+.title:hover {
+	color: grey;
+}
+
+.description, .technologies {
+	color: #0C2D6A;
+}
+
+.projects_link {
+	text-decoration: none !important;
+}
+
 /* PERSONAL PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
