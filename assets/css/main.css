@@ -259,21 +259,13 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* EDUCATION/CERTIFICATIONS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#education {
-	padding: 60px 20px 20px 20px;
-	text-align: center;
+.psu {
 }
+	img {
+		width: 175px;
+		height: 175px;
+	}
 
-.pennstate, .nycda {
-	display: block;
-    position: relative;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-}
 
 /* PROGRAMMING LANGUAGES AND TOOLS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -290,7 +282,6 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 }
 
 .html, .css, .sass, .js, .jquery, .ruby, .rails, .git, .github, .heroku, .bootstrap, .wordpress {
-	
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -318,7 +309,6 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 /* CONTACT PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contact {
-    background-color:#f1f1f1;
     font-family: 'futura', arial;
 }
 

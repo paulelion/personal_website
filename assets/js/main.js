@@ -15,7 +15,7 @@ $(document).ready(function(){
 
   // fullpage customization
   $('#fullpage').fullpage({
-    sectionsColor: ['#B8AE9C', '#348899', '#F2AE72', '#5C832F', '#B8B89F', '#ffdab9', '#ffffff'],
+    sectionsColor: ['#B8AE9C', '#348899', '#F2AE72', '#ffffff', '#5C832F', '#B8B89F', '#ffdab9', '#5C832F'],
     sectionSelector: '.vertical-scrolling',
     slideSelector: '.horizontal-scrolling',
     navigation: true,
@@ -39,6 +39,10 @@ $(document).ready(function(){
       }
     },
 
+
+    //Middle Slide
+    
+    /*
     afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex) {
       if(anchorLink == 'fifthSection' && slideIndex == 1) {
         $.fn.fullpage.setAllowScrolling(false, 'up');
@@ -56,6 +60,7 @@ $(document).ready(function(){
         );
       }
     },
+    */
 
     onSlideLeave: function( anchorLink, index, slideIndex, direction) {
       if(anchorLink == 'fifthSection' && slideIndex == 1) {
