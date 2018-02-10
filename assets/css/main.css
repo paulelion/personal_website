@@ -38,7 +38,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header-top {
-	background: rgba(0, 47, 77, .10);
+	background: rgba(0, 0, 0, .9);
 	height: 70px;
 	padding: 0 10px;
 	position: fixed;
@@ -266,6 +266,11 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	line-height: 1.2;
 }
 
+.resume {
+	padding-left: 150px;
+	padding-top: 15px;
+}
+
 
 /* ABOUT ME PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -307,16 +312,20 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .heading {
 	text-align: center;
+	font-size: 2.5em;
 }
 
 .psu, .nycda {
 	width: 175px;
 	height: 175px;
+	vertical-align: middle;
 }
 
 .ibm, .google {
 	width: 125px;
 	height: 125px;
+	height: 100%;
+	vertical-align: middle !important;
 }
 
 .psu, .nycda, .ibm, .google {
@@ -324,13 +333,19 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	margin-bottom: 20px;
 } 
 
-.v-center {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	height: 175px;
+.table-container {
+	display: table;
 }
 
+.table-item {
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.table-item.first {
+	text-align: center;
+}
 
 
 /* PROGRAMMING LANGUAGES AND TOOLS PAGE
@@ -445,5 +460,14 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
     	background-color: black;
 	}
 }
+
+.page {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
 
 
