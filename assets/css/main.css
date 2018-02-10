@@ -269,7 +269,39 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* ABOUT ME PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#background {
+	background-image: url("laptop.png") !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
+.screen {
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	padding-left: 160px;
+	padding-right: 160px;
+	top: 120px;
+}
+
+.about_me {
+	color: rgb(221, 179, 172);
+	line-height: 1.1;
+	text-align: center;
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+}
+
+.spin{
+	text-align: center; 
+}
+
+.fa-circle {
+	font-size: 15px !important;
+	color: #2B8897 !important;
+}
 
 /* EDUCATION/CERTIFICATIONS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
