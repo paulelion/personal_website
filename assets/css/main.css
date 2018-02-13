@@ -1,3 +1,28 @@
+
+
+/* SLIDENAV STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	background: white;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	background: transparent;
+	box-sizing: border-box;
+	border: 1px solid #24221F;
+}
+
 /* HELPER CLASSES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -33,12 +58,11 @@
 	        transition-delay: 1s;
 }
 
-
 /* NAV STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header-top {
-	background: rgba(0, 0, 0, .9);
+	background: rgba(0, 47, 77, .3);
 	height: 70px;
 	padding: 0 10px;
 	position: fixed;
@@ -169,31 +193,6 @@ nav li.active a,
 body.fp-viewing-fifthSection-1 #menu li:last-child a {
   background: #453659;
 }
-
-
-/* SLIDENAV STYLES - fullPage.js 
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
-	background: white;
-	width: 8px;
-	height: 8px;
-	margin: -4px 0 0 -4px;
-}
-
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
-.fp-slidesNav ul li:hover a.active span {
-	width: 16px;
-	height: 16px;
-	margin: -8px 0 0 -8px;
-	background: transparent;
-	box-sizing: border-box;
-	border: 1px solid #24221F;
-}
-
 
 
 /* MQ STYLES
@@ -408,6 +407,13 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* PERSONAL PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.carousel-inner img {
+	margin: 0 auto;
+	background-position: center center;
+	height: 400px;
+	width: 300px;
+}
 
 
 /* CONTACT PAGE
