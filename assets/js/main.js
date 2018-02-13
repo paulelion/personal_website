@@ -15,7 +15,7 @@ $(document).ready(function(){
 
   // fullpage customization
   $('#fullpage').fullpage({
-    sectionsColor: ['#B8AE9C', '#348899', '#F2AE72', '#ffffff', '#6AF0A3', '#B8B89F', '#ffdab9', '#5C832F'],
+    sectionsColor: ['#B8AE9C', '#348899', '#F2AE72', '#ffffff', '#6AF0A3', '#ADEDFC', '#ffdab9', '#5C832F'],
     sectionSelector: '.vertical-scrolling',
     slideSelector: '.horizontal-scrolling',
     navigation: true,

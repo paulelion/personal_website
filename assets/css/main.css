@@ -44,25 +44,12 @@
 	float: right;
 }
 
-.end {
-	margin-top: 30px;
-	font-size: 3em;
-	font-weight: bold;
-	opacity: 0;
-	-webkit-transform: translateY(300px);
-	    -ms-transform: translateY(300px);
-	        transform: translateY(300px);
-	-webkit-transition: opacity, -webkit-transform 1s;
-	        transition: opacity, transform 1s;
-	-webkit-transition-delay: 1s;
-	        transition-delay: 1s;
-}
 
 /* NAV STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header-top {
-	background: rgba(0, 47, 77, .3);
+	background-color: black !important;
 	height: 70px;
 	padding: 0 10px;
 	position: fixed;
@@ -80,6 +67,8 @@ h1 {
 h1 a {
 	display: block;
 	padding: 0 10px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .toggle-menu {
@@ -132,20 +121,20 @@ h1 a {
 nav {
  	height: 0;
 	opacity: 0;
-  box-sizing: border-box;
-	background: rgba(0, 47, 77, .25);
+  	box-sizing: border-box;
+	background: rgba(233, 228, 216, .85) !important;
 	position: fixed;
 	top: 70px;
 	width: 100%;
-  -webkit-transition: all 3s;
+  	-webkit-transition: all 3s;
           transition: all 3s;
 }
 
 .open-menu ~ nav {
 	opacity: 1;
- 	padding: 80px 0;
+ 	padding: 0;
 	z-index: 15;
-	height: calc(90vh - 70px);
+	height: calc(90vh - 65vh);
 }
 
 nav ul {
@@ -164,34 +153,50 @@ nav li {
 }
 
 nav li a {
-	font-size: 2em;
+	font-size: 20px;
 	display: block;
-	padding: 30px;
+	padding: 15px;
 	text-align: center;
 	-webkit-transition: background .3s;
 	        transition: background .3s;
 }
 
+
 nav li:nth-child(odd) a,
-body.fp-viewing-fifthSection-1 #menu li:nth-child(5) a {
-	background: #962D3E;
+body.fp-viewing-seventhSection-1 #menu li:nth-child(7) a {
+	background: #808080;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration:none;
 }
 
 nav li:nth-child(even) a {
-	background: #aa3346;
+	background: #808080;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration:none;
 }
 
 nav li:nth-child(odd) a:hover {
-	background: #9e2f41;
+	background: #6684a3;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration:none;
 }
 
 nav li:nth-child(even) a:hover {
-	background: #c53c52;
+	background: #6684a3;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration:none;
 }
 
 nav li.active a,
-body.fp-viewing-fifthSection-1 #menu li:last-child a {
-  background: #453659;
+body.fp-viewing-seventhSection-1 #menu li:last-child a {
+  	background: #003366;
+  	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration:none;
 }
 
 
@@ -239,11 +244,11 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 .headshot {
 	position: fixed;
-    right:-300px;
+    right:-200px;
     bottom:0;
     margin:0;
     max-width:100%;
-    height:100%;
+    height: calc(100vh - 70px)
 }
 
 .name {
@@ -424,6 +429,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	background-position: center center;
 	height: 400px;
 	width: 300px;
+	border-radius: 20px;
 }
 
 .carousel-inner h5 {
