@@ -346,7 +346,6 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	text-align: center;
 }
 
-
 /* PROGRAMMING LANGUAGES AND TOOLS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .code {
@@ -407,12 +406,29 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* PERSONAL PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#display {
+	background-image: url("ipad4.png") !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.center {
+	text-align: center;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 .carousel-inner img {
 	margin: 0 auto;
 	background-position: center center;
 	height: 400px;
 	width: 300px;
+}
+
+.carousel-inner h5 {
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
