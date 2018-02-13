@@ -67,8 +67,15 @@ h1 {
 h1 a {
 	display: block;
 	padding: 0 10px;
+	font-family: futura;
+	font-size: 27px;
 	color: white;
+	text-decoration: none !important;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 a:hover {
+	color: grey;
 }
 
 .toggle-menu {
@@ -429,12 +436,22 @@ body.fp-viewing-seventhSection-1 #menu li:last-child a {
 	background-position: center center;
 	height: 400px;
 	width: 300px;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 .carousel-inner h5 {
 	color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.carousel-control-prev,
+.carousel-control-prev-icon {
+	padding-right: 45px;
+}
+
+.carousel-control-next,
+.carousel-control-next-icon {
+	padding-left: 50px;
 }
 
 
