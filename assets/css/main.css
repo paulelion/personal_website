@@ -322,41 +322,32 @@ body.fp-viewing-seventhSection-1 #menu li:last-child a {
 /* EDUCATION/CERTIFICATIONS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .heading {
-	text-align: center;
 	font-size: 2.5em;
 }
 
-.psu, .nycda {
-	width: 175px;
-	height: 175px;
+#edu-wrapper div {
+	display: inline-block;
 	vertical-align: middle;
-}
-
-.ibm, .google {
-	width: 125px;
-	height: 125px;
-	height: 100%;
-	vertical-align: middle !important;
+	font-size: 18px;
 }
 
 .psu, .nycda, .ibm, .google {
-	margin-right: 20px;
-	margin-bottom: 20px;
-} 
-
-.table-container {
-	display: table;
+	width: 100px;
+	height: 100px;
 }
 
-.table-item {
-	display: table-cell;
-	vertical-align: middle;
-	width: 40%;
+
+
+.psu, .nycda {
+	border: 2px solid purple;
 }
 
-.table-item.first {
-	text-align: center;
+.ibm, .google {
+	filter: drop-shadow(2px 2px 0 red) 
+          drop-shadow(-1px -1px 0 red);
 }
+
+
 
 /* PROGRAMMING LANGUAGES AND TOOLS PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -408,8 +399,16 @@ body.fp-viewing-seventhSection-1 #menu li:last-child a {
 	color: grey;
 }
 
-.description, .technologies {
+.description, .technologies, .sign-in, .email, .password {
 	color: #0C2D6A;
+}
+
+.sign-in, .email, .password {
+	margin-bottom: 0;
+}
+
+.email, .password {
+	padding-left: 20px;
 }
 
 .projects_link {
@@ -446,7 +445,7 @@ body.fp-viewing-seventhSection-1 #menu li:last-child a {
 
 .carousel-control-prev,
 .carousel-control-prev-icon {
-	padding-right: 45px;
+	padding-right: 44px;
 }
 
 .carousel-control-next,
@@ -462,11 +461,11 @@ body.fp-viewing-seventhSection-1 #menu li:last-child a {
 }
 
 #contact .form-control {
-    border:2px solid #1e1e1e;
+    border:1px solid #1e1e1e;
 }
 
 #contact button {
-    border:2px solid #1e1e1e;
+    border:1px solid #1e1e1e;
 }
 
 #contact .row {
